@@ -42,14 +42,31 @@ const Home = () => {
               <td className='border border-gray-300 p-2' >90%</td>
             </tr>
             <tr>
-              <td className='border border-gray-300 p-2'>67890</td>
-              <td className='border border-gray-300 p-2'>Not Fraud</td>
-              <td className='border border-gray-300 p-2'>10%</td>
+              <td className='border border-gray-300 p-2'>12345</td>
+              <td className='border border-gray-300 p-2'>Alice Johnso</td>
+              <td className='border border-gray-300 p-2'>Fraud</td>
+              <td className='border border-gray-300 p-2'>2/04/25</td>
+              <td className='border border-gray-300 p-2'>70%</td>
+            </tr>
+            <tr>
+              <td className='border border-gray-300 p-2'>12345</td>
+              <td className='border border-gray-300 p-2'>Bob Smith</td>
+              <td className='border border-gray-300 p-2'>Legit</td>
+              <td className='border border-gray-300 p-2'>2/04/25</td>
+              <td className='border border-gray-300 p-2'>95%</td>
+            </tr>
+            <tr>
+              <td className='border border-gray-300 p-2'>12345</td>
+              <td className='border border-gray-300 p-2'>Charlie Brown</td>
+              <td className='border border-gray-300 p-2'>Fraud</td>
+              <td className='border border-gray-300 p-2'>2/04/25</td>
+              <td className='border border-gray-300 p-2'>60%</td>
             </tr>
           </tbody>
         </table>
       </div>
      </div>
+     <NavigationBar />
     </div>
   )
 }
